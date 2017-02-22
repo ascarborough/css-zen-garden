@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Sorts+Mill+Goudy');
+
+/* Global Styling */
+
 body {
     background-color: lightcoral;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+/* Typography */
+
+h1, h2, h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
 }

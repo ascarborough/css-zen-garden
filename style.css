@@ -22,3 +22,11 @@ h1 {
 h2 {
     font-size: 2em;
 }
+
+header {
+    position: fixed;
+    background-color: rgba(0, 219, 219, 0.57);
+    width: 100%;
+    top: 0;
+    margin: 0;
+}

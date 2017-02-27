@@ -30,3 +30,58 @@ header {
     top: 0;
     margin: 0;
 }
+
+/* layout */
+
+.page-wrapper {
+    background-color: peachpuff;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#zen-intro {
+    background-color: green;
+}
+
+#zen-supporting {
+    background-color: lightseagreen;
+}
+
+.sidebar {
+    background-color: lavenderblush; 
+}
+
+/* Media Queries */
+
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+/* End Mobile */
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+/* End Tablet */
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+/* End Desktop */
+}
